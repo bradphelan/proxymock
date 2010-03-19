@@ -9,7 +9,7 @@ begin
     gem.description = %Q{Adds a should_receive! method to rspec that actually calls the method instead of behaving like a true mock
 }
     gem.email = "bradphelan@xtargets.com"
-    gem.homepage = "xtargets.heroku.com"
+    gem.homepage = "http://github.com/bradphelan/proxymock"
     gem.authors = ["Brad Phelan"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
