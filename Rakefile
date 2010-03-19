@@ -5,8 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "proxymock"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Adds a should_receive! method to rspec.}
+    gem.description = %Q{Adds a should_receive! method to rspec that actually calls the method instead of behaving like a true mock
+}
     gem.email = "bradphelan@xtargets.com"
     gem.homepage = "xtargets.heroku.com"
     gem.authors = ["Brad Phelan"]

@@ -1,7 +1,6 @@
 = proxymock
 
-Description goes here.
-
+Adds a should_receive! method that actually calls the method instead of behaving like a true mock
 == Note on Patches/Pull Requests
  
 * Fork the project.
