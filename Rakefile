@@ -37,7 +37,7 @@ task :default => :spec
 
 require 'rake/rdoctask'
 Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+  version = File.exist?('VERSION') ? File.read('VERSION') : "0.0.1"
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "proxymock #{version}"
